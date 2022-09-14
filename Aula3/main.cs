@@ -23,7 +23,7 @@ class Aula3{
   public static void Main(string[] args){
     Aluno aluno1 = new Aluno{
       matricula = "2021ENEL123",
-      nome = "Davi",
+      nome = "taldoteu",
       periodo = 0
     };
     print(aluno1);
@@ -31,9 +31,9 @@ class Aula3{
     print(aluno2);
     Aluno aluno3 = new Aluno(2);
     print(aluno3);
-    Aluno aluno4 = new Aluno("2021ENEL456","Breno");
+    Aluno aluno4 = new Aluno("2021ENEL456","Jimbo");
     print(aluno4);
-    Aluno aluno5 = new Aluno("2021ENEL789","NaoePossivel",3);
+    Aluno aluno5 = new Aluno("2021ENEL789","FilhodoDono",3);
     print(aluno5);
 
     Disciplina disciplina1 = new Disciplina (0);

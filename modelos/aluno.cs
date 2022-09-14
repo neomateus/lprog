@@ -36,7 +36,7 @@ class Aluno {
 
   public bool Matricular(Disciplina disciplina){
 
-    return this.periodo ==disciplina.semestre;
+    return this.periodo == disciplina.semestre;
     
   }
 }
